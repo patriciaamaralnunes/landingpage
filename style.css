@@ -1,0 +1,55 @@
+body {
+	text-align: center;
+	background: url(imagens/nuvens.jpg) no-repeat center center fixed;
+	color: white;
+}
+
+
+@font-face {
+	font-family: ailerons;
+	src: url(fonts/ailerons.otf);
+}
+
+h1	{
+	font-family: ailerons;
+	font-size: 70px;
+	padding-top: 200px;
+	text-shadow: 1px 1px 1px gray;
+	margin-bottom: 10px;
+}
+
+p {
+	font-family: ailerons;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.button {
+	font-family: ailerons;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px gray;
+	background-color: #feede8;
+	color: white;
+	font-size: 30px;
+	padding: 10px, 10px, 10px, 10px;
+	border-radius: 2px;
+}
+
+.button:hover {
+	background-color: #fcdbd0;
+}
+
+.list {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 250px;
+}
+
+.list li {
+	display: inline;
+}
+
+.list a {
+	color: white;
+	font-size: 30px;
+}
